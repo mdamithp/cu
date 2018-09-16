@@ -15,7 +15,7 @@ public class Steps {
 	
 	@Given("^I navigate to google home page$")
 	public void i_navigate_to_google_home_page() throws Throwable {
-		System.setProperty("webdriver.chrome.driver","src\\test\\resource\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver","src\\test\\feature\\chromedriver.exe");
 		driver=new ChromeDriver();
 		driver.get("http://www.google.com");
 	    
